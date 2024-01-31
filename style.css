@@ -1,3 +1,4 @@
+/* Styling for the body of the document */
 body {
   font-family: "Arial", sans-serif;
   background-color: #e9eef7;
@@ -8,6 +9,7 @@ body {
   padding: 50px;
 }
 
+/* Styling for the production tracking table */
 table {
   width: 100%;
   max-width: 800px;
@@ -19,6 +21,7 @@ table {
   border-collapse: collapse;
 }
 
+/* Styling for table header and cells */
 th,
 td {
   padding: 15px 20px;
@@ -26,6 +29,7 @@ td {
   border-bottom: 2px solid #f0f2f7;
 }
 
+/* Styling for table header */
 th {
   background-color: #4a69af;
   color: white;
@@ -33,11 +37,13 @@ th {
   letter-spacing: 0.8px;
 }
 
+/* Styling for table cells */
 td {
   background-color: #fafbfe;
   color: #6b7c93;
 }
 
+/* Styling for the container div */
 #container {
   width: 100%;
   max-width: 800px;
@@ -47,12 +53,14 @@ td {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Styling for the order div containing buttons */
 #order {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Styling for buttons */
 button {
   padding: 12px 25px;
   border: none;
@@ -66,21 +74,25 @@ button {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling for the "Add" button */
 #add {
   background-color: #60a3bc;
   color: white;
 }
 
+/* Styling for the "Cancel" button */
 #cancel {
   background-color: #e55039;
   color: white;
 }
 
+/* Styling for the "Restart" button */
 #restart {
   background-color: #f6b93b;
   color: white;
 }
 
+/* Hover and active effects on buttons */
 button:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
